@@ -1,0 +1,36 @@
+/* 
+    Categorias de las propiedades css
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografía (Texto)
+    4. Temas visuales (Colores y cosas visibles)
+    5. Otros (Sin categorias)
+*/
+
+/* Estilos base del proyecto */
+
+:root{
+    /* Colores */
+    --bitcoin-orange:#F7931A;
+    --soft-orange:#FFE9D5;
+    --secondary-blue:#1A9AF7;
+    --soft-blue:#E7F5FF;
+    --warm-black:#201E1C;
+    --dark:#282623;
+    --grey:#BABABA;
+    --off-white:#FAF8F7;
+    --white:#ffffff;
+}
+
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
